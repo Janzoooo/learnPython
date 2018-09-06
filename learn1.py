@@ -1,6 +1,6 @@
 
 from urllib.request import urlopen
 
-html =  urlopen('httpL//jr.jd.com')
+html = urlopen('https://jr.jd.com')
 print(html.read())
 html.close()
