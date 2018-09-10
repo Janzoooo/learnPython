@@ -1,0 +1,39 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2018-09-10T02:45:32.296Z] GhostDriver - Main - running on port 55445
+[INFO  - 2018-09-10T02:45:33.431Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2018-09-10T02:45:33.431Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.customHeaders:  - {}
+[INFO  - 2018-09-10T02:45:33.431Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-09-10T02:45:33.431Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 969bec30-b4a3-11e8-982f-43d460b36d78
+[ERROR - 2018-09-10T02:46:11.432Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'ArrayBuffer.isView(e)')
+[ERROR - 2018-09-10T02:46:11.432Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - stack:
+  d (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  a (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  h (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+[ERROR - 2018-09-10T02:46:11.461Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'x7q.gn0x.fT0x')
+[ERROR - 2018-09-10T02:46:11.461Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - stack:
+  (anonymous function) (https://s3.music.126.net/web/s/pt_frame_index_568d0ba125a559ff9aa71158a4056ccc.js?568d0ba125a559ff9aa71158a4056ccc:17)
+  (anonymous function) (https://s3.music.126.net/web/s/pt_frame_index_568d0ba125a559ff9aa71158a4056ccc.js?568d0ba125a559ff9aa71158a4056ccc:17)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:18)
+  (anonymous function) (https://s3.music.126.net/web/s/pt_frame_index_568d0ba125a559ff9aa71158a4056ccc.js?568d0ba125a559ff9aa71158a4056ccc:62)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:100)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:1)
+  (anonymous function) (https://s3.music.126.net/web/s/pt_frame_index_568d0ba125a559ff9aa71158a4056ccc.js?568d0ba125a559ff9aa71158a4056ccc:62)
+  (anonymous function) (https://s3.music.126.net/web/s/pt_frame_index_568d0ba125a559ff9aa71158a4056ccc.js?568d0ba125a559ff9aa71158a4056ccc:62)
+[ERROR - 2018-09-10T02:46:12.485Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'ArrayBuffer.isView(e)')
+[ERROR - 2018-09-10T02:46:12.486Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - stack:
+  d (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  a (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  h (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+  (anonymous function) (https://s3.music.126.net/web/s/core_1618a36df7459faf241c8f4b2b24bc69.js?1618a36df7459faf241c8f4b2b24bc69:132)
+[ERROR - 2018-09-10T02:46:12.490Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'b7g')
+[ERROR - 2018-09-10T02:46:12.490Z] Session [969bec30-b4a3-11e8-982f-43d460b36d78] - page.onError - stack:
+  (anonymous function) (https://s3.music.126.net/web/s/pt_discover_index_36adddb90a3fdaaac2ed55b28d7853b2.js?36adddb90a3fdaaac2ed55b28d7853b2:17)
+  (anonymous function) (https://s3.music.126.net/web/s/pt_discover_index_36adddb90a3fdaaac2ed55b28d7853b2.js?36adddb90a3fdaaac2ed55b28d7853b2:17)
