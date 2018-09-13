@@ -28,7 +28,7 @@ for news in news_list:
 
     csvwriter.writerow([news_date, news_title, news_url, news_comments_num])
 
-    print(num)
+    print('导入第：',num,'条')
     num = num + 1
 
 print('关闭csv文件')
