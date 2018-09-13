@@ -32,7 +32,7 @@ for news in news_list:
     num = num + 1
 
 print('关闭csv文件')
-#csvfile.close()
+csvfile.close()
 print('关闭浏览器')
 driver.quit()
 driver_in.quit()
