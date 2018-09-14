@@ -21,7 +21,7 @@ table_tbody_tr = driver.find_elements_by_css_selector('table.m-table.m-table-ran
 #写csv
 print('创建csv')
 
-csvfile = open("hot_music.csv","w",newline="",encoding='utf-8')
+csvfile = open("download_csv\hot_music.csv","w",newline="",encoding='utf-8')
 writer = csv.writer(csvfile)
 writer.writerow(['标题','歌曲链接','时长','歌手','歌手链接'])
 
